@@ -1,0 +1,99 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Admin\Desktop\Last_Project\Last_Project.uvproj
+Project File Date:  07/04/2026
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+assembling startup_stm32f10x_md.s...
+compiling delay.c...
+delay.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+delay.c(68): warning:  #1-D: last line of file ends without a newline
+  }
+delay.c: 2 warnings, 0 errors
+compiling LCD.c...
+delay.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+lcd.h(73): warning:  #1-D: last line of file ends without a newline
+  #endif
+LCD.c(206): warning:  #1-D: last line of file ends without a newline
+  }
+LCD.c: 3 warnings, 0 errors
+compiling Keypad.c...
+delay.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+lcd.h(73): warning:  #1-D: last line of file ends without a newline
+  #endif
+keypad.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+Keypad.c(227): warning:  #1-D: last line of file ends without a newline
+  }
+Keypad.c: 4 warnings, 0 errors
+compiling LED.c...
+delay.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+led.h(54): warning:  #1-D: last line of file ends without a newline
+  #endif
+LED.c(165): warning:  #1-D: last line of file ends without a newline
+  }
+LED.c: 3 warnings, 0 errors
+compiling buzzer.c...
+delay.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+buzzer.h(36): warning:  #1-D: last line of file ends without a newline
+  #endif
+buzzer.c(94): warning:  #1-D: last line of file ends without a newline
+  }
+buzzer.c: 3 warnings, 0 errors
+compiling otp.c...
+otp.h(9): warning:  #1-D: last line of file ends without a newline
+  #endif
+otp.c(53): warning:  #1-D: last line of file ends without a newline
+  }
+otp.c: 2 warnings, 0 errors
+compiling main.c...
+delay.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+lcd.h(73): warning:  #1-D: last line of file ends without a newline
+  #endif
+keypad.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+led.h(54): warning:  #1-D: last line of file ends without a newline
+  #endif
+buzzer.h(36): warning:  #1-D: last line of file ends without a newline
+  #endif
+otp.h(9): warning:  #1-D: last line of file ends without a newline
+  #endif
+main.c(502): warning:  #1-D: last line of file ends without a newline
+  ---------------------------------------------------------*/
+main.c: 7 warnings, 0 errors
+compiling system_stm32f10x.c...
+linking...
+Program Size: Code=3570 RO-data=286 RW-data=44 ZI-data=1636  
+FromELF: creating hex file...
+".\Last_Project.axf" - 0 Error(s), 24 Warning(s).
+warning and 1 error messages.
+".\Last_Project.axf" - 1 Error(s), 24 Warning(s).
+Target not created
+--------------------------*/
+main.c: 9 warnings, 0 errors
+linking...
+.\Last_Project.axf: Error: L6200E: Symbol Buzzer_OFF multiply defined (by otp.o and buzzer.o).
+.\Last_Project.axf: Error: L6200E: Symbol Buzzer_OFF multiply defined (by main.o and buzzer.o).
+.\Last_Project.axf: Error: L6200E: Symbol Buzzer_Init multiply defined (by otp.o and buzzer.o).
+.\Last_Project.axf: Error: L6200E: Symbol Buzzer_Init multiply defined (by main.o and buzzer.o).
+.\Last_Project.axf: Error: L6200E: Symbol Buzzer_ON multiply defined (by otp.o and buzzer.o).
+.\Last_Project.axf: Error: L6200E: Symbol Buzzer_ON multiply defined (by main.o and buzzer.o).
+.\Last_Project.axf: Error: L6200E: Symbol Buzzer_Beep multiply defined (by otp.o and buzzer.o).
+.\Last_Project.axf: Error: L6200E: Symbol Buzzer_Beep multiply defined (by main.o and buzzer.o).
+.\Last_Project.axf: Error: L6200E: Symbol Buzzer_LongBeep multiply defined (by otp.o and buzzer.o).
+.\Last_Project.axf: Error: L6200E: Symbol Buzzer_LongBeep multiply defined (by main.o and buzzer.o).
+Not enough information to list image symbols.
+Not enough information to list the image map.
+Finished: 2 information, 0 warning and 10 error messages.
+".\Last_Project.axf" - 10 Error(s), 28 Warning(s).
+Target not created

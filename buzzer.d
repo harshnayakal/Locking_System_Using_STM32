@@ -1,0 +1,9 @@
+.\buzzer.o: buzzer.c
+.\buzzer.o: buzzer.h
+.\buzzer.o: C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h
+.\buzzer.o: C:\Keil\ARM\CMSIS\Include\core_cm3.h
+.\buzzer.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\buzzer.o: C:\Keil\ARM\CMSIS\Include\core_cmInstr.h
+.\buzzer.o: C:\Keil\ARM\CMSIS\Include\core_cmFunc.h
+.\buzzer.o: C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h
+.\buzzer.o: delay.h
